@@ -4,3 +4,7 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails4SampleApp::Application.load_tasks
+
+task :server do
+  'rails s -p 10524'
+end
